@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -e "final.f" ]; then
+    rm final.f
+fi
+cat src/jonesforth.f \
+    src/utils.f      \
+    src/i2c.f        \
+    src/lcd1602.f    \
+    src/buzzer.f     \
+    src/lights.f     \
+    src/main.f       > final.f
