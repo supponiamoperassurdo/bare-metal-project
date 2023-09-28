@@ -17,7 +17,7 @@ A livello hardware, si è fatto uso di:
 Per il corretto setup del sistema, è necessario:
 
 * caricare il contenuto di ``/boot`` in una microSD formattata in formato FAT32;
-* in config.txt, decommentare la linea ``enable_uart=1`` per consentire la comunicazione UART;
+* in ``config.txt``, decommentare la linea ``enable_uart=1`` per consentire la comunicazione UART;
 
 Per comunicare tra host e macchina target, è necessario eseguire le seguenti linee di codice su un sistema Unix-based:
 
