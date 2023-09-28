@@ -20,7 +20,6 @@ Per il corretto setup del sistema, è necessario:
 * in config.txt, decommentare la linea ``enable_uart=1`` per consentire la comunicazione UART;
 
 Per comunicare tra host e macchina target, è necessario eseguire le seguenti linee di codice su un sistema Unix-based:
-::
 
     $ sudo apt install minicom picocom -y <br/>
     $ picocom --b 115200 /dev/ttyUSB0 --send "ascii-xfr -sv -l100 -c10" --imap delbs
