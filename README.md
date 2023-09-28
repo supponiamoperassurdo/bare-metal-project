@@ -22,7 +22,7 @@ Per il corretto setup del sistema, è necessario:
 Per comunicare tra host e macchina target, è necessario eseguire le seguenti linee di codice su un sistema Unix-based:
 
 > ``$ sudo apt install minicom picocom -y``
-> ``$ picocom --b 115200 /dev/ttyUSB0 --send "ascii-xfr -sv -l100 -c10" --imap delbs``
+  ``$ picocom --b 115200 /dev/ttyUSB0 --send "ascii-xfr -sv -l100 -c10" --imap delbs``
 
 Fatto ciò, è possibile inizializzare la comunicazione. Il terminale ``picocom`` si presenterà con ``Terminal ready``:
 da quel momento si accenderà la macchina target e, per caricare il file .f, si userà la combinazione di tasti
